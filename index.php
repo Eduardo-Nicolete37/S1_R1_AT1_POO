@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         <?php 
         if ($prod) {
             echo "<hr>";
-            $prod->cadastroFeito(); // Chamamos a função cadastroFeito() entregando os dados dentro da $prod
+            $prod->cadastroFeito(); // Chamamos a função cadastroFeito() entregando os dados dentro da $prod, criando um OBJETO baseado no molde da classe
             echo "<hr>";
             $prod->mostrarProduto(); // Chamamos a função mostrarProduto() entregando os dados dentro da $prod
         }
