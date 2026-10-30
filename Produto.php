@@ -4,7 +4,7 @@ class Produto { // Isso é uma classe
     private float $preco;
     private float $avaliacoes;
 
-    public function __construct($name, $preco, $avaliacoes)
+    public function __construct(string  $name, float $preco, float $avaliacoes)
     {
         $this->name = $name;
         $this->preco = $preco;
